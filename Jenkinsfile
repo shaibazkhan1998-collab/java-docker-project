@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "java-docker-app"
         CONTAINER_NAME = "java-docker-app-container"
-        GIT_REPO = "https://github.com/shaibazkhan/java-docker-app.git"
+        GIT_REPO = "https://github.com/shaibazkhan1998-collab/java-docker-project.git"
     }
 
     stages {
