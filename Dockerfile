@@ -1,6 +1,6 @@
 FROM tomcat:9-jdk17
 
-COPY myapp/target/myapp.war /usr/local/tomcat/webapps/
+COPY myapp/target/stop.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
